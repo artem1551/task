@@ -1,0 +1,148 @@
+.cards {
+    font-family: 'SourceS';
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-bottom: 1px solid $secondary-color;
+    margin-bottom: 16px;
+
+    &__title {
+        font-size: 30px;
+        margin-bottom: 28px;
+        color: #12021D;
+        font-family: "SourceB";
+        margin-left: 15px;
+    }
+
+    &__link {
+        font-family: 'SourceR';
+        font-style: 18px;
+        color: #662D91;
+        display: block;
+        margin-right: 15px;
+        padding-bottom: 50px;
+        text-align: right;
+
+        &-arrow {
+            padding-left: 20px;
+            vertical-align: text-bottom;
+        }
+    }
+}
+
+.card {
+    width: calc(50% - 35px);
+    min-height: 236px;
+    border: 1px solid $secondary-color;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin-bottom: 42px;
+    position: relative;
+    padding: 50px 40px 20px 117px;
+
+    &__container {
+        display: flex;
+
+        &-title {
+            font-size: 20px;
+            color: #12021D;
+            margin-bottom: 30px;
+            font-weight: 600;
+            margin-right: auto;
+        }
+
+        &-link {
+            margin-left: 15px;
+        }
+    }
+
+    &__link {
+        color: #636466;
+        margin-left: auto;
+
+        &::before {
+            content: "";
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+        }
+    }
+
+    &__text {
+        font-family: 'SourceR';
+        font-size: 16px;
+        color: #1B2A39;
+        max-width: 428px;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 30px;
+        margin-bottom: 26px;
+    }
+
+    &__desktop {
+        width: 50px;
+        height: 50px;
+        float: left;
+        position: absolute;
+        top: 43px;
+        left: 43px;
+        fill: #662D91;
+    }
+    
+    &__mob {
+        display: none;
+    }
+}
+
+.card:nth-child(odd) {
+    margin-right: 42px;  
+    margin-left: 15px;     
+}
+
+@include size-md {
+    .cards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        border-bottom: none;
+
+        &__link {
+            display: none;
+        }
+    }
+
+    .card {
+        width: calc(100% - 28px);
+        margin-left: 14px;
+        padding-left: 103px;
+
+        &__container-title {
+            font-size: 16px;
+        }
+
+        &__text {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        &__desktop {
+            display: none;
+        }
+    
+        &__mob {
+            display: initial;
+            width: 72px;
+            height: 72px;
+            float: left;
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            fill: #662D91;
+        }
+    }
+
+    .card:nth-child(-n+9) {
+        margin-right: 14px;
+    }
+
+}

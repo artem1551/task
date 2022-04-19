@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SourceS';
+    src: url(../fonts/source-sans-pro.semibold.ttf) format("truetype");
+};
+
+@font-face {
+    font-family: "SourceB";
+    src: url(../fonts/source-sans-pro.bold.ttf) format("truetype");
+};
+
+@font-face {
+    font-family: 'SourceR';
+    src: url(../fonts/source-sans-pro.regular.ttf) format("truetype");
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    background-color: #F6F6F6;
+}
+
+.click:hover, .click:focus {
+    border: 1px solid #3C0D60;
+}
+
+.green {
+    fill: #8CC63F;
+}
+
+$b-color: #3C0D60;
+$secondary-color: #ECE9E9;
+$t-color: #B089BB;
