@@ -26,14 +26,17 @@ main {
     background-color: #F6F6F6;
 }
 
-.click:hover, .click:focus {
+.click:focus,
+.click:focus-within {
     border: 1px solid #3C0D60;
+}
+
+.click-white:focus {
+    border: 1px solid white;
 }
 
 .green {
     fill: #8CC63F;
 }
 
-$b-color: #3C0D60;
 $secondary-color: #ECE9E9;
-$t-color: #B089BB;

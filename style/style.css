@@ -182,8 +182,12 @@ html, body {
 main {
   background-color: #F6F6F6; }
 
-.click:hover, .click:focus {
+.click:focus,
+.click:focus-within {
   border: 1px solid #3C0D60; }
+
+.click-white:focus {
+  border: 1px solid white; }
 
 .green {
   fill: #8CC63F; }
@@ -191,7 +195,7 @@ main {
 .logo {
   height: 51px;
   width: 133px;
-  margin-left: 30px; }
+  margin: 16px 30px; }
 
 header {
   font-family: 'SourceR';
@@ -301,7 +305,7 @@ header {
     display: none; }
 
   .logo {
-    margin-left: 10px;
+    margin: 20px 6px;
     width: 111px;
     height: 43px; }
 
@@ -360,7 +364,6 @@ header {
     color: #662D91;
     display: block;
     margin-right: 15px;
-    padding-bottom: 50px;
     text-align: right; }
     .cards__link-arrow {
       padding-left: 20px;
