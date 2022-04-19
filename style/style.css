@@ -198,7 +198,7 @@ main {
   margin: 16px 30px; }
 
 header {
-  font-family: 'SourceR';
+  font-family: "SourceR", sans-serif;
   font-size: 18px;
   color: #12021D;
   display: flex;
@@ -234,7 +234,7 @@ header {
     left: 10px; }
 
 .select-menu {
-  font-family: 'SourceR';
+  font-family: "SourceR", sans-serif;
   font-size: 18px;
   color: #120270;
   padding: 30px 10px 30px 30px; }
@@ -254,13 +254,13 @@ header {
   .features__title {
     font-size: 20px;
     margin-top: 105px;
-    font-family: 'SourceR'; }
+    font-family: "SourceR", sans-serif; }
   .features__desktop {
     font-size: 48px;
     text-align: center;
     margin: 0 20px;
     line-height: 60px;
-    font-family: 'SourceB'; }
+    font-family: "SourceB", sans-serif; }
     .features__desktop-line {
       border-bottom: 5px solid #8CC63F;
       margin-right: 20px;
@@ -269,7 +269,7 @@ header {
     position: relative;
     top: -40px;
     max-width: 1400px;
-    font-family: 'SourceR'; }
+    font-family: "SourceR", sans-serif; }
     .features__blocks-list {
       display: flex;
       flex-direction: row;
@@ -321,7 +321,7 @@ header {
     padding: 70px 20px 0 20px; }
     .features__phone {
       display: contents;
-      font-family: 'SourceB';
+      font-family: "SourceB", sans-serif;
       font-size: 40px;
       line-height: normal;
       color: #B089BB; }
@@ -331,7 +331,7 @@ header {
       flex-wrap: wrap; }
     .features__text {
       display: contents;
-      font-family: 'SourceS';
+      font-family: "SourceS", sans-serif;
       font-size: 16px;
       line-height: 25px;
       color: #B089BB; }
@@ -346,7 +346,7 @@ header {
       width: 292px;
       height: 148px; } }
 .cards {
-  font-family: 'SourceS';
+  font-family: "SourceS", sans-serif;
   display: flex;
   flex-wrap: wrap;
   border-bottom: 1px solid #ECE9E9;
@@ -359,7 +359,7 @@ header {
     font-family: "SourceB";
     margin: 50px 0 37px 30px; }
   .cards__link {
-    font-family: 'SourceR';
+    font-family: "SourceR", sans-serif;
     font-style: 18px;
     color: #662D91;
     display: block;
@@ -399,7 +399,7 @@ header {
       bottom: 0;
       left: 0; }
   .card__text {
-    font-family: 'SourceR';
+    font-family: "SourceR", sans-serif;
     font-size: 16px;
     color: #1B2A39;
     max-width: 428px;

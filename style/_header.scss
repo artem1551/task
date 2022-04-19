@@ -5,7 +5,7 @@
 }
 
 header {
-    font-family: 'SourceR';
+    font-family: $font-primary;
     font-size: 18px;
     color: #12021D;
     display: flex;
@@ -67,7 +67,7 @@ header {
 // }
 
 .select-menu {
-    font-family: 'SourceR';
+    font-family: $font-primary;
     font-size: 18px;
     color: #120270;
     padding: 30px 10px 30px 30px;
@@ -94,7 +94,7 @@ header {
     &__title {
         font-size: 20px; 
         margin-top: 105px;
-        font-family: 'SourceR';
+        font-family: $font-primary;
     }
 
     &__desktop {
@@ -102,7 +102,7 @@ header {
         text-align: center;
         margin: 0 20px;
         line-height: 60px;
-        font-family: 'SourceB';
+        font-family: $font-bold;
 
         &-line {
             border-bottom: 5px solid #8CC63F;
@@ -115,7 +115,7 @@ header {
         position: relative;
         top: -40px;
         max-width: 1400px;
-        font-family: 'SourceR';
+        font-family: $font-primary;
         
         &-list {
             display: flex;
@@ -184,7 +184,7 @@ header {
 
         &__phone {
             display: contents;
-            font-family: 'SourceB';
+            font-family: $font-bold;
             font-size: 40px;
             line-height: normal;
             color: #B089BB;
@@ -200,7 +200,7 @@ header {
 
         &__text {
             display: contents;
-            font-family: 'SourceS';
+            font-family: $font-secondary;
             font-size: 16px;
             line-height: 25px;
             color: #B089BB;

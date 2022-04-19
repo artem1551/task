@@ -1,5 +1,5 @@
 .cards {
-    font-family: 'SourceS';
+    font-family: $font-secondary;
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid $secondary-color;
@@ -15,7 +15,7 @@
     }
 
     &__link {
-        font-family: 'SourceR';
+        font-family: $font-primary;
         font-style: 18px;
         color: #662D91;
         display: block;
@@ -70,7 +70,7 @@
     }
 
     &__text {
-        font-family: 'SourceR';
+        font-family: $font-primary;
         font-size: 16px;
         color: #1B2A39;
         max-width: 428px;
