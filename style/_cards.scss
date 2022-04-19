@@ -2,16 +2,16 @@
     font-family: 'SourceS';
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
     border-bottom: 1px solid $secondary-color;
     margin-bottom: 16px;
+    justify-content: space-between;
+    padding: 0 30px;
 
     &__title {
         font-size: 30px;
-        margin-bottom: 28px;
         color: #12021D;
         font-family: "SourceB";
-        margin-left: 15px;
+        margin: 50px 0 37px 30px;
     }
 
     &__link {
@@ -95,16 +95,17 @@
     }
 }
 
-.card:nth-child(odd) {
-    margin-right: 42px;  
-    margin-left: 15px;     
-}
-
 @include size-md {
     .cards {
         flex-wrap: nowrap;
         flex-direction: column;
         border-bottom: none;
+        align-items: center;
+        padding: 0 17px;
+
+        &__title {
+            margin-top: 20px;
+        }
 
         &__link {
             display: none;
@@ -113,7 +114,6 @@
 
     .card {
         width: calc(100% - 28px);
-        margin-left: 14px;
         padding-left: 103px;
 
         &__container-title {
@@ -140,9 +140,4 @@
             fill: #662D91;
         }
     }
-
-    .card:nth-child(-n+9) {
-        margin-right: 14px;
-    }
-
 }

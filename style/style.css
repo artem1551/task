@@ -277,7 +277,7 @@ header {
       border-radius: 4px;
       box-shadow: 0 0 20px 0 rgba(27, 52, 57, 0.05);
       background-color: #fff;
-      margin: 0 15px 15px 15px; }
+      margin: 0 30px 15px 30px; }
       .container-underhead__blocks-item svg {
         width: 50px;
         height: 50px;
@@ -345,15 +345,15 @@ header {
   font-family: 'SourceS';
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
   border-bottom: 1px solid #ECE9E9;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  justify-content: space-between;
+  padding: 0 30px; }
   .cards__title {
     font-size: 30px;
-    margin-bottom: 28px;
     color: #12021D;
     font-family: "SourceB";
-    margin-left: 15px; }
+    margin: 50px 0 37px 30px; }
   .cards__link {
     font-family: 'SourceR';
     font-style: 18px;
@@ -414,21 +414,20 @@ header {
   .card__mob {
     display: none; }
 
-.card:nth-child(odd) {
-  margin-right: 42px;
-  margin-left: 15px; }
-
 @media (max-width: 768px) {
   .cards {
     flex-wrap: nowrap;
     flex-direction: column;
-    border-bottom: none; }
+    border-bottom: none;
+    align-items: center;
+    padding: 0 17px; }
+    .cards__title {
+      margin-top: 20px; }
     .cards__link {
       display: none; }
 
   .card {
     width: calc(100% - 28px);
-    margin-left: 14px;
     padding-left: 103px; }
     .card__container-title {
       font-size: 16px; }
@@ -445,7 +444,4 @@ header {
       position: absolute;
       top: 16px;
       left: 16px;
-      fill: #662D91; }
-
-  .card:nth-child(-n+9) {
-    margin-right: 14px; } }
+      fill: #662D91; } }
