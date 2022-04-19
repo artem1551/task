@@ -239,7 +239,7 @@ header {
   color: #120270;
   padding: 30px 10px 30px 30px; }
 
-.container-underhead {
+.features {
   background-color: #3C0D60;
   background-size: 100%;
   color: #F4F4F4;
@@ -247,34 +247,34 @@ header {
   flex-direction: column;
   align-items: center;
   min-height: 375px; }
-  .container-underhead__phone {
+  .features__phone {
     display: none; }
-  .container-underhead__text {
+  .features__text {
     display: none; }
-  .container-underhead__title {
+  .features__title {
     font-size: 20px;
     margin-top: 105px;
     font-family: 'SourceR'; }
-  .container-underhead__desktop {
+  .features__desktop {
     font-size: 48px;
     text-align: center;
     margin: 0 20px;
     line-height: 60px;
     font-family: 'SourceB'; }
-    .container-underhead__desktop-line {
+    .features__desktop-line {
       border-bottom: 5px solid #8CC63F;
       margin-right: 20px;
       margin-left: 20px; }
-  .container-underhead__blocks {
+  .features__blocks {
     position: relative;
     top: -40px;
     max-width: 1400px;
     font-family: 'SourceR'; }
-    .container-underhead__blocks-list {
+    .features__blocks-list {
       display: flex;
       flex-direction: row;
       justify-content: space-around; }
-    .container-underhead__blocks-item {
+    .features__blocks-item {
       width: 404px;
       height: 170px;
       border: 1px solid #ECE9E9;
@@ -282,13 +282,13 @@ header {
       box-shadow: 0 0 20px 0 rgba(27, 52, 57, 0.05);
       background-color: #fff;
       margin: 0 30px 15px 30px; }
-      .container-underhead__blocks-item svg {
+      .features__blocks-item svg {
         width: 50px;
         height: 50px;
         display: block;
         margin: 23px auto 0 auto;
         fill: #662D91; }
-      .container-underhead__blocks-item h3 {
+      .features__blocks-item h3 {
         color: #12021D;
         margin: 15px 15px 0 15px;
         font-size: 20px;
@@ -315,33 +315,33 @@ header {
   .select-menu {
     padding: 10px; }
 
-  .container-underhead {
+  .features {
     max-height: 407px;
     text-align: center;
     padding: 70px 20px 0 20px; }
-    .container-underhead__phone {
+    .features__phone {
       display: contents;
       font-family: 'SourceB';
       font-size: 40px;
       line-height: normal;
       color: #B089BB; }
-      .container-underhead__phone-white {
+      .features__phone-white {
         color: #fff; }
-    .container-underhead__blocks-list {
+    .features__blocks-list {
       flex-wrap: wrap; }
-    .container-underhead__text {
+    .features__text {
       display: contents;
       font-family: 'SourceS';
       font-size: 16px;
       line-height: 25px;
       color: #B089BB; }
-    .container-underhead__title {
+    .features__title {
       display: none; }
-    .container-underhead__desktop {
+    .features__desktop {
       display: none; }
-    .container-underhead__blocks-list {
+    .features__blocks-list {
       top: 70px; }
-    .container-underhead__block-item {
+    .features__block-item {
       margin-bottom: 14px;
       width: 292px;
       height: 148px; } }
@@ -378,15 +378,15 @@ header {
   margin-bottom: 42px;
   position: relative;
   padding: 50px 40px 20px 117px; }
-  .card__container {
+  .card__header {
     display: flex; }
-    .card__container-title {
+    .card__header-title {
       font-size: 20px;
       color: #12021D;
       margin-bottom: 30px;
       font-weight: 600;
       margin-right: auto; }
-    .card__container-link {
+    .card__header-link {
       margin-left: 15px; }
   .card__link {
     color: #636466;
@@ -432,7 +432,7 @@ header {
   .card {
     width: calc(100% - 28px);
     padding-left: 103px; }
-    .card__container-title {
+    .card__header-title {
       font-size: 16px; }
     .card__text {
       border-bottom: none;

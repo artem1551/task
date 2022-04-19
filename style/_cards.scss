@@ -39,7 +39,7 @@
     position: relative;
     padding: 50px 40px 20px 117px;
 
-    &__container {
+    &__header {
         display: flex;
 
         &-title {
@@ -115,7 +115,7 @@
         width: calc(100% - 28px);
         padding-left: 103px;
 
-        &__container-title {
+        &__header-title {
             font-size: 16px;
         }
 
