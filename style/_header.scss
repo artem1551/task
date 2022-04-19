@@ -46,6 +46,16 @@ header {
 
     &__lang {
         margin-left: auto;
+
+        &-position {
+            position: relative;
+        }
+
+        &-icon {
+            position: absolute;
+            top: 33px;
+            left: 10px;
+        }
     }
 }
 
@@ -84,6 +94,7 @@ header {
     &__title {
         font-size: 20px; 
         margin-top: 105px;
+        font-family: 'SourceR';
     }
 
     &__desktop {
@@ -91,6 +102,7 @@ header {
         text-align: center;
         margin: 0 20px;
         line-height: 60px;
+        font-family: 'SourceB';
 
         &-line {
             border-bottom: 5px solid #8CC63F;
@@ -143,6 +155,10 @@ header {
         display: none;
     }
 
+    .navigation__lang-icon {
+        visibility: hidden;
+    }
+
     .navigation__search-item:first-child{
         display: none;
     }
@@ -164,13 +180,14 @@ header {
     .container-underhead {
         max-height: 407px;
         text-align: center;
-        padding: 80px 20px 0 20px;
+        padding: 70px 20px 0 20px;
 
         &__phone {
             display: contents;
+            font-family: 'SourceB';
             font-size: 40px;
-            line-height: 48px;
-            align-items: center;
+            line-height: normal;
+            // align-items: center;
             color: $t-color;
 
             &-white {
@@ -184,6 +201,7 @@ header {
 
         &__text {
             display: contents;
+            font-family: 'SourceS';
             font-size: 16px;
             line-height: 25px;
             color: $t-color;

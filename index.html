@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header class="container">
@@ -27,10 +27,15 @@
             </ul>
         </nav>
         <nav aria-label="Language navigation" class="navigation__lang">
-            <select name="name" id="id" class="select-menu">
-                <option value="">Latviešu</option>
-                <option value="">English</option>
-            </select>
+            <ul>
+                <li class="navigation__lang-position">
+                    <i class="fa fa-globe navigation__lang-icon"></i>
+                    <select name="name" id="id" class="select-menu">
+                        <option value="">Latviešu</option>
+                        <option value="">English</option>
+                    </select>
+                </li>
+            </ul>
         </nav>
         <nav aria-label="Second navigation" class="navigation__second">
             <ul class="navigation__search">
