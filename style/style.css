@@ -257,7 +257,8 @@ header {
   .container-underhead__blocks {
     position: relative;
     top: -40px;
-    max-width: 1400px; }
+    max-width: 1400px;
+    font-family: 'SourceR'; }
     .container-underhead__blocks-list {
       display: flex;
       flex-direction: row;

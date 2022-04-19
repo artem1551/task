@@ -66,7 +66,6 @@ header {
 .container-underhead {
     background-color: $b-color;
     background-size: 100%;
-    font-family: 'SourceS';
     color: #F4F4F4;
     display: flex;
     flex-direction: column;
@@ -104,6 +103,7 @@ header {
         position: relative;
         top: -40px;
         max-width: 1400px;
+        font-family: 'SourceR';
         
         &-list {
             display: flex;
